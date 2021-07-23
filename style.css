@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'KAWAIITEGAKIMOJI';
+    src: url('assets/KTEGAKI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'KAWAIITEGAKIMOJI';
+    background-color: #F7F3EF;
+}
+
+.clock {
+    color: #614439;
+    font-size: 5.5rem;
+    width: 520px;
+    margin: auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.search {
+    margin: auto;
+    width: 1000px;
+}
+
+input {
+    caret-color: #694539;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: 'KAWAIITEGAKIMOJI';
+    background-color: #F7F3EF;
+    width: 1000px;
+    border-width: 200%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+input:hover, input:focus {
+    color: #000000;
+    
+}
+
+input:focus {
+    transition: 1s;
+}
+
+input:hover::-moz-placeholder {
+    color: #694539;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+input:focus::-moz-placeholder {
+    color: transparent;
+  }
+
+
+.input:focus {
+    outline: none;
+  }
+
+  
